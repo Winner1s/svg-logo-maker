@@ -49,7 +49,7 @@ function promptUser() {
       return writeFile(outputPath, svg.render());
     })
     .then(() => {
-      console.log("Example logo created successfully!");
+      console.log("Generated logo.svg!");
     })
     .catch((error) => {
       console.log(error);
